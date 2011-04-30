@@ -1,0 +1,3 @@
+date is la 30.04.2011 time is 17:34:18,32 
+Argument "</tr>" isn't numeric in chr at E:\cas\cas.0.7.5.dev.ysg\sfw\perl\ExcelToHtml\ExcelToHtml.1.3.dev.ysg\sfw\perl\ExcelToHtml.pl line 186.
+Use of uninitialized value $ExcelToMSSqlInsert::MyBareName in concatenation (.) or string at E:\cas\cas.0.7.5.dev.ysg\sfw\perl\ExcelToHtml\ExcelToHtml.1.3.dev.ysg\sfw\perl\ExcelToHtml.pl line 58.

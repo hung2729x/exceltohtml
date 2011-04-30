@@ -1,0 +1,20 @@
+		* minimalistic documentation
+		* easy to read code style with comments 
+		* no additional modules required 
+		* multiple OS ( Win 7 tested only ) 
+		* minimalistic coupling with OS configuration
+		* configurability via human readable ini file 
+		* ini file variables expansion 
+		* modularity of design e.g. each project might have multiple versions unders its folder
+		* configurability for base directory of the project 
+		* configurability for project version
+		* configurability for project version log file and dir
+		* conditional dynamic logging ;0 * LogNothing , 1 * Print to screen , 2 * print to file , 3 * print to db , 4 * print to screen and file
+		* configurability for Whether or not to print simple messages without label
+		* configurability for  Whether or not to pring INFO messages
+		* configurability for  Whether or not to pring WARNING messages
+		* configurability for  Whether or not to pring ERROR messages
+		* configurability for Whether or not to pring DEBUG messages
+		* configurability for  Whether or not to pring TRACE messages
+		* separate AppendToFile and ReadFileReturnString file utility
+		* logging message is preceded to human readable timestamp in the YYYY.MM.DD hh:mm:ss *** msg format

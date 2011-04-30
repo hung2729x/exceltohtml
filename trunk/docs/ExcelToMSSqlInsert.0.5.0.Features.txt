@@ -1,0 +1,4 @@
+full configurability via ini file
+can read exel file and generate MSSQL insert statements per worksheet -> tableName
+and run those insert statements as well as save them into files on the file system if they do not exist
+

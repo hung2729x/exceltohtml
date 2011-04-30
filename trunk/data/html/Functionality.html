@@ -1,0 +1,36 @@
+
+ <html> <head></head><body> 
+ <table> <tr><td>FunctionalityId </td><td>Name </td><td>Description </td></tr> 
+<tr style="background-color:#C2DFFF" ><td>1 </td><td>Class Generation in TSQL </td><td>Classes for modelling can be generated automatically via s signle call in TSql by a Developer role. Each class has section for  the fields and properties , which are the same as the columns of the table it represents , constructor as well as dumping method retrieving the props and their values for this object. Each class has also a LoadData method , which does populate all the properties with their correct types from a single DataRow object </td></tr> 
+<tr><td>2 </td><td>app debugging into a debug log table </td><td>A single storage for debuggin information from application layer and sql code </td></tr> 
+<tr style="background-color:#C2DFFF" ><td>3 </td><td>DDL statements tracking </td><td>A single storage table for DDL changes - e.g. who has changed what in the database and when , useful for SOX control </td></tr> 
+<tr><td>4 </td><td>Generic Automatic generation of history data based on table </td><td>If a table' data is to be tracked for changes -- e.g. who has done what changes and when a Developer could create via a single call the history data table + the corrrespomndent insert , delete , update triggers which do record who has done what changes on this table object. </td></tr> 
+<tr style="background-color:#C2DFFF" ><td>5 </td><td>A single storage for Bugs and Bugs tracking </td><td>A single storage for Bugs and Bugs tracking ( who has edited , createde , deleted Bugs and when ) </td></tr> 
+<tr><td>6 </td><td>A single storage for Functionalities </td><td>A single storage for Functionalities and Functionalities tracking ( who has edited , createde , deleted Functionalities and when ) </td></tr> 
+<tr style="background-color:#C2DFFF" ><td>7 </td><td>A single storage for Ideas </td><td>A single storage for Ideas and Ideas tracking ( who has edited , createde , deleted Ideas and when ) </td></tr> 
+<tr><td>8 </td><td>A single storage for Features </td><td>A single storage for Features and Features tracking ( who has edited , createde , deleted Features and when ) </td></tr> 
+<tr style="background-color:#C2DFFF" ><td>9 </td><td>A single storage for Comments </td><td>A single storage for Comments. Comments could be related to any single table ) </td></tr> 
+<tr><td>10 </td><td>A single storage for Stored procedure Parameters </td><td>A single storage for Stored procedure Parameters. Stored procedure Parameters could be related to any single stored procedure. ) </td></tr> 
+<tr style="background-color:#C2DFFF" ><td>11 </td><td>Storage of culture related formatting per country </td><td>Culture related formatting per country could be stored in a separate storage table </td></tr> 
+<tr><td>12 </td><td>Application Layer Setting loading </td><td>The settings of the Application Layer are specified in configuration files on the application layer , but overriden from the settings with the same name. The settings are loaded as soon as the whole AL is kick-started </td></tr> 
+<tr style="background-color:#C2DFFF" ><td>13 </td><td>User settings derival from App SEttings </td><td>User settings derive from application settings. Default user settings are loaded with the application settings as soon as the session is started. Thus default user settings could be changed by simply changing the user settings for the default user </td></tr> 
+<tr><td>14 </td><td>Code generation per table column </td><td>Generic code generation per column of a table(s) based on the table(s) metadata via a simple stored procedure call </td></tr> 
+<tr style="background-color:#C2DFFF" ><td>15 </td><td>Global Msgs </td><td>A Structure containinng all the messages to be displayed to all the user roles ( without the Developer role ) containing in all registered languages of the Application is loaded during the start of the application. Thus </td></tr> 
+<tr><td>16 </td><td>Dynamic Online debugging to db </td><td>Dynamic debugging infor could be switch from the UserSEttings for every particular user. Depending of the log level of this user the debugging ifnfo could be stored in the database </td></tr> 
+<tr style="background-color:#C2DFFF" ><td>17 </td><td>Dynamic base page class </td><td>The following page properties are dyanmic per page: 
+Title , LinkToolTip , AppTheme , MaintainScrollPositionOnPostBack , NeedForAuthentication: </td></tr> 
+<tr><td>18 </td><td>Storage table for recording Incidents </td><td>The following incident properties are dyanmic per Incident :  
+[IncidentId],[Name],[Description],[Priority],[StatusId],[IncidentTypeId],[AssignedTo],[CreatedBy],[TimeEstimate],[TimeActual],[Comments] </td></tr> 
+<tr style="background-color:#C2DFFF" ><td>19 </td><td>Storage table for recording Processes </td><td>The following process properties are dyanmic per Incident :  
+[ProcessId],[Name],[Description],[Comments] </td></tr> 
+<tr><td>20 </td><td>Pages db configurability </td><td>Every layout of a page is configurable via the database. The logic of the page however  is Application Layer based </td></tr> 
+<tr style="background-color:#C2DFFF" ><td>21 </td><td>User creation </td><td>Default user - there is always a configurable default user - e.g. even if the user is not authenticated the default user is loaded with default user settings derived from the Application settings </td></tr> 
+<tr><td>22 </td><td>Page - Forms relation </td><td>Every page might have 0 or many forms and css files </td></tr> 
+<tr style="background-color:#C2DFFF" ><td>23 </td><td>Forms db configurability </td><td>Every layout of a Form is configurable via the database. The logic of the Form however  is Application Layer based </td></tr> 
+<tr><td>24 </td><td>Page - Listings relation </td><td>Every page might have 0 or many Listings </td></tr> 
+<tr style="background-color:#C2DFFF" ><td>25 </td><td>Listings db configurability </td><td>Every layout of a Listing is configurable via the database and css files generically. The logic of the Listing however  is Application Layer based </td></tr> 
+<tr><td>26 </td><td>Page - Menus relation </td><td>Every page might have 0 or many Menus </td></tr> 
+<tr style="background-color:#C2DFFF" ><td>27 </td><td>Menus db configurability </td><td>Every layout of a Menu is configurable via the database and css files. The logic of the Menu however  is Application Layer based </td></tr> 
+<tr><td>28 </td><td>Sql files run </td><td>Ability to run sql files into preconfigured database </td></tr> 
+</table> 
+</body></html> 

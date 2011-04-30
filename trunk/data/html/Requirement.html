@@ -1,0 +1,40 @@
+
+ <html> <head></head><body> 
+ <table> <tr><td>RequirementId </td><td>Title </td><td>Description </td></tr> 
+<tr style="background-color:#C2DFFF" ><td>0 </td><td>Insert Stored Procedures Generation </td><td>A Developer should be able to generate insert stored procedures which do perform insert on a table + default sql api for GUI </td></tr> 
+<tr><td>1 </td><td>Security </td><td>Only authorized persons should access the  Application accept for the pages which are publically available </td></tr> 
+<tr style="background-color:#C2DFFF" ><td>2 </td><td>Multi DBMS support </td><td>The Generic Application should be accessible for various DBMS </td></tr> 
+<tr><td>3 </td><td>Multilanguage interface </td><td>The interface of the generic application should be translatable equally to all languages </td></tr> 
+<tr style="background-color:#C2DFFF" ><td>4 </td><td>Message tables </td><td>The messages to the interface of the Generic Application should come from the database storage. Only severe connectivity messages ( in case of missing db connectivity ) are allowed to come from the Application Layer </td></tr> 
+<tr><td>5 </td><td>GUI Menu </td><td>The menu should be fully dynamic setable - via css and db </td></tr> 
+<tr style="background-color:#C2DFFF" ><td>6 </td><td>The links in the menu </td><td>The links in the menu should be guided from db , Links are displayed according to user role </td></tr> 
+<tr><td>7 </td><td>The application should support different themes </td><td>The application should support different themes via using standard interface for site masters and css </td></tr> 
+<tr style="background-color:#C2DFFF" ><td>8 </td><td>User roles </td><td>Each user (even the non registered ones )should have one or more roles </td></tr> 
+<tr><td>9 </td><td>Self documentation </td><td>All the documentation for the generic application should be found and accessible from the Gaf , no external tools or data sources should be used for accessing the documentation </td></tr> 
+<tr style="background-color:#C2DFFF" ><td>10 </td><td>Application metadata </td><td>All the meta data of the application should be stored withing the application itself . No external tools should be used for generation / accessing of meta about the </td></tr> 
+<tr><td>11 </td><td>Css class of generated controls </td><td>Each generated control should have its own CssClass withing the site''s theme </td></tr> 
+<tr style="background-color:#C2DFFF" ><td>12 </td><td>Css style for generated controls </td><td>Each generated control should have its own css style with vals from database </td></tr> 
+<tr><td>13 </td><td>Dynamically setable master pages </td><td>Each page of the generic application instances should have its own dynamically setable master page </td></tr> 
+<tr style="background-color:#C2DFFF" ><td>14 </td><td>Generic Page Type </td><td>A generic page type must define specific data structure for the elements of the page and correspond to a single code base file </td></tr> 
+<tr><td>15 </td><td>List of roles containment </td><td>The database should contain the list of all roles both in the Gaf application and the instance application </td></tr> 
+<tr style="background-color:#C2DFFF" ><td>16 </td><td>page access based on roles </td><td>Each page instance can be accessed by 0 or more roles </td></tr> 
+<tr><td>17 </td><td>User changes tracking </td><td>Each change to user access rights should be recorded. Changes in user rights should be searchable and trackable </td></tr> 
+<tr style="background-color:#C2DFFF" ><td>18 </td><td>Configuration Repository </td><td>The configuration for each logical enviornment should be stored in one single configuration repository. The configuration data should be retrieval so that generation of configuration files should be possible via a simple call for all environments </td></tr> 
+<tr><td>19 </td><td>A Title </td><td>A new one </td></tr> 
+<tr style="background-color:#C2DFFF" ><td>20 </td><td>FK DataIntegrity in Forms </td><td>The generated Stored procedures should be clever enough to generate the stored procedures for the foreign keys </td></tr> 
+<tr><td>21 </td><td>GUI INDEPENDANCE OF BUSINESS LOGIC </td><td>The generic GUI should be independant </td></tr> 
+<tr style="background-color:#C2DFFF" ><td>22 </td><td>Single Click Deployment </td><td>The whole application - AL + database should be installable generically via a single click installers </td></tr> 
+<tr><td>23 </td><td>Generic on cascade delete and update </td><td>The developer should be able to remove the FOREIGN keys in the database from a fk table or pk table , perform inserts and than readd the keys </td></tr> 
+<tr style="background-color:#C2DFFF" ><td>24 </td><td>CREATE , DROP TABLE  Documentation enforcement </td><td>Each time a Developer writes , CREATE or DROP TABLE the change should be stored in a MetaTable and from there further on to the MetaTableHistory table , </td></tr> 
+<tr><td>25 </td><td>CREATE , DROP StoredProcedure Documentation enforcement </td><td>Each time a Developer writes , CREATE or DROP StoredProcedure the change should be stored in a MetaTable and from there further on to the MetaTableHistory table , </td></tr> 
+<tr style="background-color:#C2DFFF" ><td>26 </td><td>Coding conventions for Developers </td><td>A Developer should follow the coding conventions while generating code, so that all Developers should use the same coding conventions </td></tr> 
+<tr><td>27 </td><td>Column list formatting for sql developers </td><td>A sql Developer should write all the column list so that the comma should be in the front of the columns and not at the end. Before the comma there is a space , aftere it a space and after that there is the name of the [column] surrounded by square brackets </td></tr> 
+<tr style="background-color:#C2DFFF" ><td>28 </td><td>Expiration of user session </td><td>The user should be logged out when a predefined set amount of time will expire </td></tr> 
+<tr><td>29 </td><td>Logging of user session start and end entries </td><td>Each beginning and end of an user session should be logged </td></tr> 
+<tr style="background-color:#C2DFFF" ><td>30 </td><td>Ability to track user sessions </td><td>An Administrator should be able to track the user session data by users </td></tr> 
+<tr><td>31 </td><td>Url Parameters passing </td><td>Each page type has only specific set of url params , each url param has only specific set url parameter values or expected parameter value  types ( integer etc. ) . Should the user pass invalied url parameters the Application should return the specific page type requested with error messages of the url parameter type it was expecting </td></tr> 
+<tr style="background-color:#C2DFFF" ><td>32 </td><td>Url Parameters passing </td><td>Each page type has only specific set of url params , each url param has only specific set url parameter values or expected parameter value  types ( integer etc. ) . Should the user pass invalied url parameters the Application should return the specific page type requested with error messages of the url parameter type it was expecting </td></tr> 
+<tr><td>33 </td><td>Generation of sql inserts from Excel files </td><td>The software component is able to generate MSSQL insert statements so that each Excel sheet is the table and the first row of the excel is the same as the table columns. Each generated file name and full path is configurable via ini file </td></tr> 
+<tr style="background-color:#C2DFFF" ><td>34 </td><td>Thanasis must approve it </td><td>Thanasis must approve it </td></tr> 
+</table> 
+</body></html> 
