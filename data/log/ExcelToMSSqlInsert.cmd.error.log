@@ -1,0 +1,22 @@
+date is la 30.04.2011 time is 11:09:08,33 
+Use of uninitialized value in chr at E:\cas\cas.0.7.5.dev.ysg\sfw\perl\ExcelToMSSqlInsert\ExcelToMSSqlInsert.0.6.0.dev.ysg\sfw\perl\ExcelToMSSqlInsert.pl line 261.
+Odd number of elements in anonymous hash at E:\cas\cas.0.7.5.dev.ysg\sfw\perl\ExcelToMSSqlInsert\ExcelToMSSqlInsert.0.6.0.dev.ysg\sfw\perl\ExcelToMSSqlInsert.pl line 50.
+Msg 207, Level 16, State 1, Server HOSTNAME\POC_QA, Line 8
+Invalid column name 'RequirementStatusId'.
+[dbo].[TaskPriority]: Insert Batch: 1.....Done!
+[dbo].[Requirement]: Insert Batch: 1.....Done!
+[dbo].[RequirementPriority]: Insert Batch: 1.....Done!
+[dbo].[Project]: Insert Batch: 1.....Done!
+[dbo].[ProductFunctionality]: Insert Batch: 1.....Done!
+[dbo].[Functionality]: Insert Batch: 1.....Done!
+Msg 207, Level 16, State 1, Server HOSTNAME\POC_QA, Line 8
+Invalid column name 'ProjectId'.
+Msg 205, Level 16, State 1, Server HOSTNAME\POC_QA, Line 6
+All queries combined using a UNION, INTERSECT or EXCEPT operator must have an e
+qual number of expressions in their target lists.
+[dbo].[Bug]: Insert Batch: 1.....Done!
+[dbo].[BugStatus]: Insert Batch: 1.....Done!
+[dbo].[DbVersionLog]: Insert Batch: 1.....Done!
+[dbo].[Feature]: Insert Batch: 1.....Done!
+[dbo].[Product]: Insert Batch: 1.....Done!
+[dbo].[ProductVersionLog]: Insert Batch: 1.....Done!
